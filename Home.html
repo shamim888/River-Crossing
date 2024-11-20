@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiverCrossing</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .pt-300{
+            padding-top:300px;
+        }
+        .flex{
+            display: flex;
+        }
+        .h-600{
+            height: 600px;
+        }
+        .h-300{
+            height: 300px;
+        }
+        .w-100{
+            width: 100%;
+        }
+        .w-25{
+            width: 25%;
+        }
+        
+        .w-50{
+            width: 50%;
+        }
+
+        .water{
+            background:url(assets/water.jpg);
+            background-color: #9bffc2;
+            background-size: 100% 45%;
+            background-position: bottom center;
+            background-repeat: no-repeat;
+        }
+        .relative{
+            position:relative;
+        }
+        .absolute{
+            position:absolute;
+        }
+        .none{
+            display: none;
+        }
+
+        .text-1 {
+            position: absolute;
+            left: 200px;
+            top: -150px;
+            font-size: 32px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .pos {
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body style="background-color:#000000;">
+    <div class=" relative w-100 h-600 flex pt-300 water">
+        
+        <div class="w-50 h-300 relative">
+            
+        </div>
+        <div class="w-25 bg-green h-300 right-side">
+                
+        </div>
+    </div>
+    <a id="go" href="javascript:;" class="absolute" style="text-decoration:none; font-size: larger; font-weight:bolder; color:#fff; width:100px;height:100px; border-radius:50%; background:rgb(255, 238, 0);right:60px;top:30px; text-align: center;line-height: 100px;">GO</a>
+    <script>
+        
+    </script>
+</body>
+</html>
